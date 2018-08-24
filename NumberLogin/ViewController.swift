@@ -48,24 +48,19 @@ class ViewController: UIViewController{
             let image1 :UIImage = UIImage(named: "ABC.png")!
             
             accountKitEmailLoginVC.uiManager = AKFSkinManager(skinType: .contemporary, primaryColor: UIColor.orange, backgroundImage: image1, backgroundTint: .black, tintIntensity: 0.1)
-            
 
             accountKitEmailLoginVC.enableSendToFacebook = true
             
             accountKitEmailLoginVC.delegate = self
             
             present(accountKitEmailLoginVC as! UIViewController, animated: true, completion: nil)
-            
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
-    
 }
-
 
 extension ViewController : AKFViewControllerDelegate{
     
@@ -120,6 +115,6 @@ extension ViewController : AKFViewControllerDelegate{
 
 //extension ViewController:AKFConfiguring{
 //
-//}
+//}dvwvdhjwvdhjvgcgcwgqhcccdghcdgwcdgwcghdwcdghewdcgw
 
     
