@@ -13,9 +13,9 @@ import AccountKit
 class ViewController: UIViewController{
     
     let ACCOUNT_KIT = AKFAccountKit(responseType: .accessToken)
+        @IBOutlet var lblShow: UILabel!
     
-    @IBOutlet var lblShow: UILabel!
-    
+    //button action method
     @IBAction func loginWithNum(_ sender: UIButton)
     {
     
@@ -39,7 +39,6 @@ class ViewController: UIViewController{
         }
     }
     
-    
 
     @IBAction func loginWithEmail(_ sender: UIButton) {
         
@@ -48,24 +47,19 @@ class ViewController: UIViewController{
             let image1 :UIImage = UIImage(named: "ABC.png")!
             
             accountKitEmailLoginVC.uiManager = AKFSkinManager(skinType: .contemporary, primaryColor: UIColor.orange, backgroundImage: image1, backgroundTint: .black, tintIntensity: 0.1)
-            
 
             accountKitEmailLoginVC.enableSendToFacebook = true
             
             accountKitEmailLoginVC.delegate = self
             
             present(accountKitEmailLoginVC as! UIViewController, animated: true, completion: nil)
-            
         }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
-    
 }
-
 
 extension ViewController : AKFViewControllerDelegate{
     
@@ -118,8 +112,5 @@ extension ViewController : AKFViewControllerDelegate{
  
 }
 
-//extension ViewController:AKFConfiguring{
-//
-//}
 
     
