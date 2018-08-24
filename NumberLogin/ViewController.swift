@@ -13,9 +13,9 @@ import AccountKit
 class ViewController: UIViewController{
     
     let ACCOUNT_KIT = AKFAccountKit(responseType: .accessToken)
+        @IBOutlet var lblShow: UILabel!
     
-    @IBOutlet var lblShow: UILabel!
-    
+    //button action method
     @IBAction func loginWithNum(_ sender: UIButton)
     {
     
@@ -38,7 +38,6 @@ class ViewController: UIViewController{
             
         }
     }
-    
     
 
     @IBAction func loginWithEmail(_ sender: UIButton) {
@@ -113,8 +112,5 @@ extension ViewController : AKFViewControllerDelegate{
  
 }
 
-//extension ViewController:AKFConfiguring{
-//
-//}dvwvdhjwvdhjvgcgcwgqhcccdghcdgwcdgwcghdwcdghewdcgw
 
     
