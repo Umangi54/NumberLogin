@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B4B89C01F1F626B0057DD98 /* ABC.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4B89BF1F1F626B0057DD98 /* ABC.png */; };
 		6B72CF2C1F13844C005D6175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B72CF2B1F13844C005D6175 /* AppDelegate.swift */; };
 		6B72CF2E1F13844C005D6175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B72CF2D1F13844C005D6175 /* ViewController.swift */; };
 		6B72CF311F13844C005D6175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B72CF2F1F13844C005D6175 /* Main.storyboard */; };
 		6B72CF331F13844C005D6175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B72CF321F13844C005D6175 /* Assets.xcassets */; };
 		6B72CF361F13844C005D6175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B72CF341F13844C005D6175 /* LaunchScreen.storyboard */; };
 		6B72CF411F13844C005D6175 /* NumberLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B72CF401F13844C005D6175 /* NumberLoginTests.swift */; };
+		6B72D1491F1393BF005D6175 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72D1481F1393BF005D6175 /* AssetsLibrary.framework */; };
+		962409DDE6B5CBB7F7CDF911 /* Pods_NumberLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DC4560A7E9DFEDB648D77F /* Pods_NumberLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12DC4560A7E9DFEDB648D77F /* Pods_NumberLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumberLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4B89BF1F1F626B0057DD98 /* ABC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ABC.png; path = ../ABC.png; sourceTree = "<group>"; };
 		6B72CF281F13844C005D6175 /* NumberLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B72CF2B1F13844C005D6175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B72CF2D1F13844C005D6175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		6B72CF3C1F13844C005D6175 /* NumberLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B72CF401F13844C005D6175 /* NumberLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLoginTests.swift; sourceTree = "<group>"; };
 		6B72CF421F13844C005D6175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B72D1481F1393BF005D6175 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F59B5F5ACEDE1A73400A1F6E /* Pods-NumberLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumberLogin/Pods-NumberLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		FE0C84F91CD8A7AC60565D35 /* Pods-NumberLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumberLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumberLogin/Pods-NumberLogin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B72D1491F1393BF005D6175 /* AssetsLibrary.framework in Frameworks */,
+				962409DDE6B5CBB7F7CDF911 /* Pods_NumberLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				6B72CF2A1F13844C005D6175 /* NumberLogin */,
 				6B72CF3F1F13844C005D6175 /* NumberLoginTests */,
 				6B72CF291F13844C005D6175 /* Products */,
+				769D184D9D8DD5E8777466C5 /* Pods */,
+				F0B90D29BA2F29955FA8C0F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +95,7 @@
 				6B72CF321F13844C005D6175 /* Assets.xcassets */,
 				6B72CF341F13844C005D6175 /* LaunchScreen.storyboard */,
 				6B72CF371F13844C005D6175 /* Info.plist */,
+				6B4B89BF1F1F626B0057DD98 /* ABC.png */,
 			);
 			path = NumberLogin;
 			sourceTree = "<group>";
@@ -96,6 +109,24 @@
 			path = NumberLoginTests;
 			sourceTree = "<group>";
 		};
+		769D184D9D8DD5E8777466C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F59B5F5ACEDE1A73400A1F6E /* Pods-NumberLogin.debug.xcconfig */,
+				FE0C84F91CD8A7AC60565D35 /* Pods-NumberLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0B90D29BA2F29955FA8C0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B72D1481F1393BF005D6175 /* AssetsLibrary.framework */,
+				12DC4560A7E9DFEDB648D77F /* Pods_NumberLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B72CF451F13844C005D6175 /* Build configuration list for PBXNativeTarget "NumberLogin" */;
 			buildPhases = (
+				FBFA2D4C40E2674B4F81690C /* [CP] Check Pods Manifest.lock */,
 				6B72CF241F13844C005D6175 /* Sources */,
 				6B72CF251F13844C005D6175 /* Frameworks */,
 				6B72CF261F13844C005D6175 /* Resources */,
+				0CF53CE4C07D5CB041DCD964 /* [CP] Embed Pods Frameworks */,
+				DFDB751D2EEE3C3599FDE68B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +180,7 @@
 				TargetAttributes = {
 					6B72CF271F13844C005D6175 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = MB3U6KTHY8;
 						ProvisioningStyle = Automatic;
 					};
 					6B72CF3B1F13844C005D6175 = {
@@ -182,6 +217,7 @@
 				6B72CF361F13844C005D6175 /* LaunchScreen.storyboard in Resources */,
 				6B72CF331F13844C005D6175 /* Assets.xcassets in Resources */,
 				6B72CF311F13844C005D6175 /* Main.storyboard in Resources */,
+				6B4B89C01F1F626B0057DD98 /* ABC.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +229,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF53CE4C07D5CB041DCD964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberLogin/Pods-NumberLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFDB751D2EEE3C3599FDE68B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NumberLogin/Pods-NumberLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFA2D4C40E2674B4F81690C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B72CF241F13844C005D6175 /* Sources */ = {
@@ -335,11 +419,13 @@
 		};
 		6B72CF461F13844C005D6175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59B5F5ACEDE1A73400A1F6E /* Pods-NumberLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				INFOPLIST_FILE = NumberLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mobileFirst.NumberLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileFirst.NumberLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -347,11 +433,13 @@
 		};
 		6B72CF471F13844C005D6175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE0C84F91CD8A7AC60565D35 /* Pods-NumberLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MB3U6KTHY8;
 				INFOPLIST_FILE = NumberLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mobileFirst.NumberLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobileFirst.NumberLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -404,6 +492,7 @@
 				6B72CF471F13844C005D6175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B72CF481F13844C005D6175 /* Build configuration list for PBXNativeTarget "NumberLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +501,7 @@
 				6B72CF4A1F13844C005D6175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
